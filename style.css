@@ -6,7 +6,7 @@ table, tr, td {
 }
 
 body {
-  background-color: #202020;
+  background-color: #202027;
   color: #ffffff;
   font-size: 24px;
   font-family: Arial, Helvetica, sans-serif;
@@ -31,6 +31,7 @@ table {
     border-color: black;
     border-style: solid;
     border-color: #d0d0d0;
+    border-radius: 10px;
   }
 
   .submit {
@@ -38,6 +39,8 @@ table {
 
     input {
       width: 40%;
+      padding-top: 1%;
+      padding-bottom: 1%;
     }
   }
 
@@ -56,3 +59,29 @@ table {
   padding: 3%;
 }
 
+#data_table {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  border-color: #d0d0d0;
+  border-radius: 10px;
+  margin-top: 10vw;
+  margin-left: 30%;
+  width: 40%;
+  /* text-align: center; */
+
+  .info_col {
+    width: 35%;
+  }
+}
+
+#logout_form {
+  text-align: center;
+
+  input {
+    font-size: 24px;
+    margin-top: 3vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+  }
+}
